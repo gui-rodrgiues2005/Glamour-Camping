@@ -1,0 +1,74 @@
+#activity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 50px;
+
+    .group-camping {
+        h5 {
+            color: #97A483;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #2D2D2D;
+            font-weight: Bold;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            margin-top: 90px;
+        }
+    }
+
+    .atividades {
+        display: flex;
+        gap: 100px;
+        margin-left: 40px;
+
+        .coluna {
+            .iten{
+                width: 300px;
+                margin-bottom: 100px;
+                h2 {
+                    color: #2D2D2D;
+                    font-weight: Bold;
+                    font-size: 24px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: #2D2D2D;
+                    line-height: 25px;
+                }
+
+            }
+        }
+
+        .coluna2{
+            margin-top: 100px;
+        
+            .iten{
+                width: 300px;
+                margin-bottom: 100px;
+                h2 {
+                    color: #2D2D2D;
+                    font-weight: Bold;
+                    font-size: 24px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: #2D2D2D;
+                    line-height: 25px;
+                }
+
+            }
+        }
+    }
+}

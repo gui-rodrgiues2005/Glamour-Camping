@@ -1,0 +1,34 @@
+#gallery {
+    display: flex;
+    margin-top: 50px;
+    
+    .group-gallery {
+        margin-left: 40px;
+        h2 {
+            color: #2D2D2D;
+            font-weight: Bold;
+            font-size: 40px;
+        }
+
+        p {
+            color: #555555;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+
+    .imagens {
+        display: flex;
+        .img1 img{
+            width: 850px;
+        }
+
+        .img2 img{
+            width: 300px;
+            position: relative;
+            top: 250px;
+            left: 100px;
+        }
+    }
+
+}
