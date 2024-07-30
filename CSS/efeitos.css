@@ -1,0 +1,18 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .fade-in {
+    animation: fadeIn 2s ease-in-out;
+  }
+  .scroll-fade {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  .scroll-fade.visible {
+    opacity: 1;
+  }

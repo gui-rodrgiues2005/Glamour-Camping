@@ -1,0 +1,104 @@
+#rodape {
+    display: flex;
+    background-color: #345E40;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+
+    .subscribe {
+        margin-top: 100px;
+
+        h1 {
+            color: #FFFFFF;
+            font-size: 50px;
+            margin-bottom: 40px;
+        }
+
+        .email {
+            input {
+                background-color: transparent;
+                outline: none;
+                border: none;
+            }
+
+            input::placeholder {
+                color: #FFFFFF;
+            }
+
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+                margin-left: 200px;
+            }
+
+            .line {
+                background-color: #FFFFFF;
+                width: 500px;
+                height: 1px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: #FFFFFF;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .contato {
+        margin-top: 60px;
+
+        h3 {
+            color: #FFFFFF;
+            letter-spacing: 0.5px;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: 400;
+                margin-bottom: 40px;
+                transition: color 0.2s ease, transform 0.2s ease-in;
+
+            }
+
+            a:hover {
+                color: #FFFFFF;
+                transform: scale(1.05);
+            }
+        }
+
+        h2 {
+            color: #FFFFFF;
+            letter-spacing: 0.06px;
+            font-size: 20px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        .sociais {
+            display: flex;
+            gap: 30px;
+            transition: transform 0.2s ease-in;
+            img:hover {
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+        }
+    }
+}

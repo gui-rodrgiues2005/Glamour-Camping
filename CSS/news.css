@@ -1,0 +1,66 @@
+#news {
+    margin-left: 170px;
+    margin-top: 100px;
+    h5 {
+        color: #97A483;
+        font-size: 20px;
+        font-weight: Bold;
+    }
+
+    .group-news {
+        h2 {
+            color: #2D2D2D;
+            font-size: 40px;
+            font-weight: Bold;
+        }
+
+        .botao {
+            display: flex;
+            margin-bottom: 20px;
+   
+            .explore {
+                font-size: 14px;
+                font-weight: Bold;
+                background-color: #345E40;
+                border: none;
+                border-radius: 10px;
+                padding: 10px;
+                width: 190px;
+                color:#FFFFFF;
+                margin-left:58%;
+                transition:  background-color 0.2s ease;
+            }
+            .explore:hover {
+                background-color: #345e40a8;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .imagens {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        .iten {
+            img{
+                width: 400px;
+            
+            }
+
+            p {
+                color: #2D2D2D;
+                font-size: 15px;
+                font-weight: Bold;
+                line-height: 20px;
+            }
+
+            .read {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                color: #555555;
+                font-size: 20px;
+            }
+        }
+    }
+}

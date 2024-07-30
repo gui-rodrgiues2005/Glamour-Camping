@@ -1,0 +1,17 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-image: url('/imagens/textura\ do\ fundo.png') ;
+}
+
+:root {
+    --primary-color:#2D2D2D;
+    --second-color:#345E40;
+    --three-color:#97A483;
+    --four-color:#F7F2DB;
+}

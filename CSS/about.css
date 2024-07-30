@@ -1,0 +1,88 @@
+#About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .Welcome {
+        text-align: center;
+        width: 1000px;
+
+        h5 {
+            color: #97A483;
+            font-size: 20px;
+            font-weight: Bold;
+       
+        }
+
+        h2 {
+            color: #2D2D2D;
+            font-size: 50px;
+            font-weight: Bold;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #555555;
+            font-size: 16px;
+            line-height: 25px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .imagens {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+        gap: 30px;
+
+        .line {
+            background-color: #BFBFBF;
+            width: 100px;
+            height: 2px;
+            transform: rotate(90deg);
+            margin-top: 40px;
+        }
+
+        .iten {
+            text-align: center;
+            margin-bottom: 20px;
+            p {
+                margin-top: 15px;
+                color: #2D2D2D;
+                font-size: 16;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .camping {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .group {
+            width: 430px;
+            text-align: center;
+            margin-bottom: 40px;
+            img{
+                width: 350px;
+                margin-bottom: 20px;
+            }
+
+            h3{
+                color: #2D2D2D;
+                font-size: 20px;
+                font-weight: Bold;
+                margin-bottom: 25px;
+            }
+
+            p {
+                color: #555555;
+                font-size: 15px;
+                line-height: 25px;
+            }
+
+        }
+    }
+}

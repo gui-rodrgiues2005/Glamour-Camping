@@ -1,0 +1,94 @@
+#booking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .group-text {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 90px;
+
+        h5 {
+            color: #97A483;
+            font-size: 20px;
+            font-weight: Bold;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #2D2D2D;
+            font-size: 40px;
+            font-weight: Bold;
+        }
+    }
+
+    .imagens {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+
+        .iten {
+            width: 500px;
+            margin: 20px;
+           
+            img {
+                width: 500px;
+            }
+
+            p {
+                color: #555555;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 30px;
+            }
+
+            .avalie {
+                background-color: #345E40;
+                color: #FFFFFF;
+                font-size: 10px;
+                font-weight: Bold;
+                border: none;
+                padding: 10px;
+                width: 230px;
+                border-radius: 10px;
+                transition: background-color 0.2s ease-in, transform 0.2s ease;
+            }
+
+            .avalie:hover {
+                background-color: #345e40b2;
+                transform: scale(1.05);
+                cursor: pointer;
+            }   
+
+            .qualidades {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h3 {
+                    color: #345E40;
+                    font-size: 20px;
+                    font-weight: Bold;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .adicionais {
+                    display: flex;
+                    margin-top: 20px;
+                }
+
+                .line {
+                    background-color: #9A9A9A;
+                    width: 30px;
+                    height: 1px;
+                    transform: rotate(90deg);
+                    margin-top: 10px ;
+                }
+            }
+        }
+    }
+}
